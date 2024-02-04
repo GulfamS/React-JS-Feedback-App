@@ -1,0 +1,150 @@
+.container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    height: 100vh;
+  }
+}
+
+.emoji-card {
+  height: 350px;
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-top: 32px;
+  padding: 0px;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-card {
+    height: 380px;
+    width: 480px;
+  }
+}
+
+.emoji-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+}
+
+.emoji-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.emoji {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+    padding-bottom: 0px;
+  }
+}
+
+.thank-you-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thank-you-card {
+  height: 350px;
+  width: 350px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .thank-you-card {
+    height: 400px;
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.love-emoji {
+  height: 60px;
+  width: 65px;
+}
+
+.thank-heading {
+  font-family: Roboto;
+  color: #0f172a;
+  font-size: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .thank-heading {
+    font-size: 38px;
+  }
+}
+
+.feedback {
+  font-family: Roboto;
+  color: #1e293b;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback {
+    font-size: 30;
+  }
+}
